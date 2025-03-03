@@ -10,7 +10,6 @@ import { Certifications } from './components/Certifications';
 import { Education } from './components/Education';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import { LoadingScreen } from './components/loading/LoadingScreen';
 import { useLoading } from './hooks/useLoading';
 // import { CustomCursor } from "./components/ui/CustomCursor";
 import { Analytics } from '@vercel/analytics/react';
@@ -20,7 +19,7 @@ function App() {
 
   return (
     <>
-      <LoadingScreen isLoading={isLoading} />
+      {/* Removed Handwriting Loading Screen */}
       <div
         className={`min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-opacity duration-500 ${
           isLoading ? 'opacity-0' : 'opacity-100'
