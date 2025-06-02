@@ -12,7 +12,7 @@ const certifications = [
     issuer: "Amazon Web Services",
     date: "Mar 2020",
     link: "https://www.credly.com/badges/8aa4fb36-8995-4b07-abbd-9d1e60338fee/public_url",
-    image: "https://media.licdn.com/dms/image/v2/C5622AQEa4jfXQqkXcw/feedshare-shrink_1280/feedshare-shrink_1280/0/1584117303143?e=1743638400&v=beta&t=1o2DixmvnuJrXR1XtQ7wQBGMjYctF79mx17B68Su_uQ"
+    image: "https://images.credly.com/size/680x680/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png"
   },
   {
     title: "AWS Solution Architect - Associate",
