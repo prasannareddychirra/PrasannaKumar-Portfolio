@@ -1,4 +1,3 @@
-import React from 'react';
 import { SectionTitle } from './ui/SectionTitle';
 import { ProjectCard } from './ui/ProjectCard';
 
@@ -7,7 +6,7 @@ const projects = [
     title: 'Portfolio',
     description: 'Personal portfolio website showcasing projects and skills',
     image: '/assets/portfolio.png',
-    link: 'https://.netlify.app',
+
     tags: ['React', 'Tailwind CSS', 'TypeScript'],
   },
   {

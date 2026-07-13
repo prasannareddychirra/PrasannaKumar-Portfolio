@@ -1,11 +1,10 @@
-import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 
 interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
-  link: string;
+  link?: string;
   tags: string[];
 }
 
@@ -26,14 +25,16 @@ export function ProjectCard({ title, description, image, link, tags }: ProjectCa
           />
           <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
             {/* External Link */}
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 bg-white/20 rounded-full hover:bg-blue-600 hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg"
-            >
-              <ExternalLink className="w-6 h-6 text-white" />
-            </a>
+            {link && (
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-white/20 rounded-full hover:bg-blue-600 hover:scale-110 transition-transform duration-300 ease-in-out shadow-lg"
+              >
+                <ExternalLink className="w-6 h-6 text-white" />
+              </a>
+            )}
             {/* GitHub Link */}
             <a
               href={`https://github.com/prasannareddychirra/${title.toLowerCase()}`}

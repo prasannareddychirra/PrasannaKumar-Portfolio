@@ -1,16 +1,15 @@
-import React from 'react';
 import { SectionTitle } from './ui/SectionTitle';
 import { Timeline } from './ui/Timeline';
 
 const experiences = [
   {
-    title: 'Senior Azure Devops Engieer',
+    title: 'Senior Azure Devops Engineer',
     company: 'Elevance Health',
     period: 'Nov 2024 - Present',
     description: 'Engineered scalable Azure infrastructure with Terraform, achieving 100% deployment efficiency, automated VM rehydration, and optimized CI/CD with Bamboo and Ansible.',
   },
   {
-    title: 'Senior Infrastructure Engieer',
+    title: 'Senior Infrastructure Engineer',
     company: 'American Express',
     period: 'July 2024 - Nov 2024',
     description: 'Developed secure Terraform modules, ensuring 95% compliance with least privilege access and encryption, while optimizing cloud deployments and CI/CD efficiency across AWS and GCP.',
@@ -22,7 +21,7 @@ const experiences = [
     description: 'Innovated AI models and optimized performance, leveraging TensorFlow, PyTorch, and NVIDIA Jetson, enhancing research visualization and documentation by 90%.',
   },
   {
-    title: 'Senior Software Engieer - Cloud Operations',
+    title: 'Senior Software Engineer - Cloud Operations',
     company: 'Carelon Global Solutions',
     client: "Elevance Health",
     period: 'Sep 2020 - July 2023',

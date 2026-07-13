@@ -1,13 +1,12 @@
 import { SectionTitle } from './ui/SectionTitle';
-import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiExpress, SiMongodb, SiNextdotjs, SiTypescript, SiCplusplus, SiGit, SiGithub, SiVite, SiAmazonwebservices, SiGooglecloud, SiTerraform, SiGitlab, SiBamboo, SiAnsible, SiJenkins, SiDocker, SiKubernetes, SiCloudflare } from 'react-icons/si';
-import { FaReact, FaNodeJs, FaJava, FaPython } from 'react-icons/fa';
-import { VscVscode } from "react-icons/vsc";
-import { IoLogoFirebase } from "react-icons/io5";
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiGit, SiGithub, SiAmazonwebservices, SiGooglecloud, SiTerraform, SiGitlab, SiBamboo, SiAnsible, SiJenkins, SiDocker, SiKubernetes } from 'react-icons/si';
+import { VscAzure, VscVscode } from 'react-icons/vsc';
+import { FaNodeJs, FaPython } from 'react-icons/fa';
 
 const skills = [
   { name: 'AWS', icon: SiAmazonwebservices, color: '#FF9900' },
   { name: 'Google Cloud', icon: SiGooglecloud, color: '#4285F4' },
-  { name: 'Azure', icon: SiCloudflare, color: '#4285F4' },
+  { name: 'Azure', icon: VscAzure, color: '#0078D4' },
   { name: 'Terraform', icon: SiTerraform, color: '#7B42BC' },
   { name: 'GitLab', icon: SiGitlab, color: '#fc6d26' },
   { name: 'Bamboo', icon: SiBamboo, color: '#47d666' },

@@ -1,10 +1,8 @@
-import React from "react";
 import Slider from "react-slick";
 import { SectionTitle } from "./ui/SectionTitle";
 import { CertificationCard } from "./ui/CertificationCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { image } from "framer-motion/client";
 
 const certifications = [
   {

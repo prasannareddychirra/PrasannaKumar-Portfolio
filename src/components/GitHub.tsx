@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import GitHubCalendar from 'react-github-calendar';
 import { SectionTitle } from './ui/SectionTitle';
 
 interface Repo {
     name: string;
     description: string;
-    stars: number;
-    forks: number;
+    stargazers_count: number;
+    forks_count: number;
     language: string;
     html_url: string;
 }
@@ -22,8 +22,8 @@ export function GitHub() {
                     data.map((repo) => ({
                         name: repo.name,
                         description: repo.description,
-                        stars: repo.stars,
-                        forks: repo.forks,
+                        stargazers_count: repo.stargazers_count,
+                        forks_count: repo.forks_count,
                         language: repo.language,
                         html_url: repo.html_url,
                     }))
@@ -77,8 +77,8 @@ export function GitHub() {
                             <div className="mt-4 flex items-center justify-between text-gray-500">
                                 <span>{repo.language}</span>
                                 <div className="flex space-x-4">
-                                    <span>⭐ {repo.stars}</span>
-                                    <span>🍴 {repo.forks}</span>
+                                    <span>⭐ {repo.stargazers_count}</span>
+                                    <span>🍴 {repo.forks_count}</span>
                                 </div>
                             </div>
                         </a>
